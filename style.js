@@ -86,9 +86,9 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./pearson_br_imaginarium/blink-src/js/cke_styles.js":
+/***/ "./PearsonBrImaginarium/blink-src/js/cke_styles.js":
 /*!********************************************!*\
-  !*** ./pearson_br_imaginarium/blink-src/js/cke_styles.js ***!
+  !*** ./PearsonBrImaginarium/blink-src/js/cke_styles.js ***!
   \********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -108,9 +108,9 @@ const ckeStyles = [
 
 /***/ }),
 
-/***/ "./pearson_br_imaginarium/blink-src/js/layout/main.js":
+/***/ "./PearsonBrImaginarium/blink-src/js/layout/main.js":
 /*!*********************************************!*\
-  !*** ./pearson_br_imaginarium/blink-src/js/layout/main.js ***!
+  !*** ./PearsonBrImaginarium/blink-src/js/layout/main.js ***!
   \*********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -911,18 +911,18 @@ class Layout {
 
 /***/ }),
 
-/***/ "./pearson_br_imaginarium/blink-src/js/main.js":
+/***/ "./PearsonBrImaginarium/blink-src/js/main.js":
 /*!**************************************!*\
-  !*** ./pearson_br_imaginarium/blink-src/js/main.js ***!
+  !*** ./PearsonBrImaginarium/blink-src/js/main.js ***!
   \**************************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _cke_styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cke_styles */ "./pearson_br_imaginarium/blink-src/js/cke_styles.js");
-/* harmony import */ var _overrides__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./overrides */ "./pearson_br_imaginarium/blink-src/js/overrides.js");
-/* harmony import */ var _layout_main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout/main */ "./pearson_br_imaginarium/blink-src/js/layout/main.js");
+/* harmony import */ var _cke_styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cke_styles */ "./PearsonBrImaginarium/blink-src/js/cke_styles.js");
+/* harmony import */ var _overrides__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./overrides */ "./PearsonBrImaginarium/blink-src/js/overrides.js");
+/* harmony import */ var _layout_main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout/main */ "./PearsonBrImaginarium/blink-src/js/layout/main.js");
 /*
 *   Javascript principal con la estructura básica del estilo
 */
@@ -933,16 +933,16 @@ __webpack_require__.r(__webpack_exports__);
 (function (blink) {
   'use strict';
 
-  var pearson_br_imaginariumStyle = function () {
+  var PearsonBrImaginariumStyle = function () {
     blink.theme.styles.basic.apply(this, arguments);
   };
 
-  pearson_br_imaginariumStyle.prototype = {
+  PearsonBrImaginariumStyle.prototype = {
     parent: blink.theme.styles.basic.prototype,
-    bodyClassName: 'content_type_clase_pearson_br_imaginarium',
+    bodyClassName: 'content_type_clase_PearsonBrImaginarium',
     extraPlugins: ['image2'],
     ckEditorStyles: {
-      name: 'pearson_br_imaginarium',
+      name: 'PearsonBrImaginarium',
       styles: _cke_styles__WEBPACK_IMPORTED_MODULE_0__["default"]
     },
     init: function (scope) {
@@ -954,15 +954,15 @@ __webpack_require__.r(__webpack_exports__);
     },
     ..._overrides__WEBPACK_IMPORTED_MODULE_1__["default"]
   };
-  pearson_br_imaginariumStyle.prototype = _.extend({}, new blink.theme.styles.basic(), pearson_br_imaginariumStyle.prototype);
-  blink.theme.styles['pearson_br_imaginarium'] = pearson_br_imaginariumStyle;
+  PearsonBrImaginariumStyle.prototype = _.extend({}, new blink.theme.styles.basic(), PearsonBrImaginariumStyle.prototype);
+  blink.theme.styles['PearsonBrImaginarium'] = PearsonBrImaginariumStyle;
 })(blink);
 
 /***/ }),
 
-/***/ "./pearson_br_imaginarium/blink-src/js/overrides.js":
+/***/ "./PearsonBrImaginarium/blink-src/js/overrides.js":
 /*!*******************************************!*\
-  !*** ./pearson_br_imaginarium/blink-src/js/overrides.js ***!
+  !*** ./PearsonBrImaginarium/blink-src/js/overrides.js ***!
   \*******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1033,9 +1033,9 @@ const overrides = {
 
 /***/ }),
 
-/***/ "./pearson_br_imaginarium/blink-src/styles/main.scss":
+/***/ "./PearsonBrImaginarium/blink-src/styles/main.scss":
 /*!********************************************!*\
-  !*** ./pearson_br_imaginarium/blink-src/styles/main.scss ***!
+  !*** ./PearsonBrImaginarium/blink-src/styles/main.scss ***!
   \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -1048,13 +1048,13 @@ const overrides = {
 
 /***/ 0:
 /*!*********************************************************************************!*\
-  !*** multi ./pearson_br_imaginarium/blink-src/js/main.js ./pearson_br_imaginarium/blink-src/styles/main.scss ***!
+  !*** multi ./PearsonBrImaginarium/blink-src/js/main.js ./PearsonBrImaginarium/blink-src/styles/main.scss ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\pearson_br_imaginarium\blink-src\js\main.js */"./pearson_br_imaginarium/blink-src/js/main.js");
-module.exports = __webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\pearson_br_imaginarium\blink-src\styles\main.scss */"./pearson_br_imaginarium/blink-src/styles/main.scss");
+__webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\PearsonBrImaginarium\blink-src\js\main.js */"./PearsonBrImaginarium/blink-src/js/main.js");
+module.exports = __webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\PearsonBrImaginarium\blink-src\styles\main.scss */"./PearsonBrImaginarium/blink-src/styles/main.scss");
 
 
 /***/ })
