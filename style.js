@@ -98,12 +98,82 @@ __webpack_require__.r(__webpack_exports__);
 /*
 *   Array con la definición de los estilos para el editor de CKEditor
 */
+
 const ckeStyles = [
-  {name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-1'}},
-  {name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-2'}},
-  {name: 'Énfasis', element: 'span', attributes: {'class': 'bck-enfasis'}}
-  // Añadir elementos CKEditor aquí.
+
+        { name: 'Title 01', element: 'h2', attributes: { 'class': 'bck-title1'} },
+        { name: 'Title 02', element: 'h3', attributes: { 'class': 'bck-title2'} },
+        { name: 'Title 03', element: 'h3', attributes: { 'class': 'bck-title3'} },
+        { name: 'Title 04', element: 'h3', attributes: { 'class': 'bck-title4'} },
+        { name: 'Title 05', element: 'h2', attributes: { 'class': 'bck-title5'} },
+        { name: 'Title 06', element: 'h3', attributes: { 'class': 'bck-title6'} },
+        { name: 'Title 07', element: 'h3', attributes: { 'class': 'bck-title7'} },
+        { name: 'Title 08', element: 'h3', attributes: { 'class': 'bck-title8'} },
+        { name: 'Title 09', element: 'h2', attributes: { 'class': 'bck-title9'} },
+        { name: 'Title 10', element: 'h3', attributes: { 'class': 'bck-title10'} },
+
+        
+
+        { name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
+        { name: 'Versalitas', element: 'span', attributes: { 'class': 'bck-versalitas'} },
+
+        { name: 'Bullet 01', element: 'ul', attributes: { 'class': 'bck-ul'} },
+        { name: 'Bullet 02', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
+        { name: 'Bullet 03', element: 'ul', attributes: { 'class': 'bck-ul-3'} },
+        { name: 'List 01', element: 'ol', attributes: { 'class': 'bck-ol' } },
+        { name: 'List 02', element: 'ol', attributes: { 'class': 'bck-ol-2' } },
+        { name: 'List 03', element: 'ol', attributes: { 'class': 'bck-ol-3' } },
+        { name: 'List 04', element: 'ol', attributes: { 'class': 'bck-ol-4' } },
+        { name: 'List 05', element: 'ol', attributes: { 'class': 'bck-ol-5' } },
+        { name: 'List 06', element: 'ol', attributes: { 'class': 'bck-ol-6' } },
+        { name: 'List 07', element: 'ol', attributes: { 'class': 'bck-ol-7' } },
+        { name: 'List 08', element: 'ol', attributes: { 'class': 'bck-ol-8' } },
+        { name: 'List 09', element: 'ol', attributes: { 'class': 'bck-ol-9' } },
+        { name: 'List 10', element: 'ol', attributes: { 'class': 'bck-ol-10' } },
+
+        { name: 'Box 01', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
+        { name: 'Box 02', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
+        { name: 'Box 03', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } },
+        { name: 'Box 04', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-4' } },
+        { name: 'Box 05', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-5' } },
+        { name: 'Box 06', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-6' } },
+        { name: 'Box 07', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-7' } },
+        { name: 'Box 08', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-8' } },
+        { name: 'Box 09', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-9' } },
+        { name: 'Box 10', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-10' } },
+        
+        { name: 'Circle Icon', element: 'span', attributes: { 'class': 'circle' } },
+        { name: 'Clap Icon', element: 'span', attributes: { 'class': 'icon clap' } },
+        { name: 'Color Icon', element: 'span', attributes: { 'class': 'icon color' } },
+        { name: 'Count Icon', element: 'span', attributes: { 'class': 'icon count' } },
+        { name: 'Draw Icon', element: 'span', attributes: { 'class': 'icon draw' } },
+        { name: 'Find Icon', element: 'span', attributes: { 'class': 'icon find' } },
+        { name: 'Listen Icon', element: 'span', attributes: { 'class': 'icon listen' } },
+        { name: 'Look Icon', element: 'span', attributes: { 'class': 'icon look' } },
+        { name: 'Match Icon', element: 'span', attributes: { 'class': 'icon match' } },
+        { name: 'Number Icon', element: 'span', attributes: { 'class': 'icon number' } },
+        { name: 'Paint Icon', element: 'span', attributes: { 'class': 'icon paint' } },
+        { name: 'Paste Icon', element: 'span', attributes: { 'class': 'icon paste' } },
+        { name: 'Point Icon', element: 'span', attributes: { 'class': 'icon point' } },
+        { name: 'Read Icon', element: 'span', attributes: { 'class': 'icon read' } },
+        { name: 'Say Icon', element: 'span', attributes: { 'class': 'icon say' } },
+        { name: 'Sing Icon', element: 'span', attributes: { 'class': 'icon sing' } },
+        { name: 'Trace Icon', element: 'span', attributes: { 'class': 'icon trace' } },
+        { name: 'Write Icon', element: 'span', attributes: { 'class': 'icon write' } },
+
+
+        { name: 'Tabla', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table'} },
+        { name: 'Celda', element: 'td', attributes: { 'class': 'bck-td'} },
+
+
+        { name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'pearson_ec_demo-dropdown' } },
+        { name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'pearson_ec_demo-dropdown-2' } },
+
+        { name: 'Imagen Sin Bordes', type: 'widget', widget: 'image', attributes: { 'class': 'normal-img' } }
 ];
+
+     
+
 /* harmony default export */ __webpack_exports__["default"] = (ckeStyles);
 
 /***/ }),
