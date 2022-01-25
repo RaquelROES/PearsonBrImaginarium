@@ -882,8 +882,58 @@ body #book-index #indice .col-main {
   /************************
    * CSS AÑADIDO POR HTML *
    ************************/
-/*--------------Títulos------------*/
 
+/*TEMAS DEL TOC*/
+#layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item:first-child .section-title {
+    align-items: center;
+    background-color: #95CDCB;
+    background-image: linear-gradient(90deg, #95cdcb 25%, #95cdcb);
+    max-height: 60px;
+    padding: 15px 0;
+    position: relative;
+}
+
+
+/*IMÁGENES*/
+
+#actividad .carousel-inner .item-container.aux-fullscreen .class_slide, #actividad .carousel-inner .item-container.aux-bckg .class_slide {
+    position: relative;
+    background-color: #fff0;
+    padding-right: 20px;
+    padding-bottom: 0;
+    margin-right: 0;
+}
+
+#layout-container div[id*="section-screen"] .section .section-data .desc-wrapper .section-desc {
+    background-color: transparent;
+}
+
+
+#layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title:before{
+  display: none;
+}
+
+
+/*--------------Títulos------------*/
+/*título slide*/
+#actividad .content .header .title {
+    background-image: url(images/bck_titles.png);
+    padding: 0px 20px;
+    background-size: contain;
+}
+
+#actividad .content .header {
+    border-bottom: 0px;
+}
+
+#actividad .content .header .chapter {
+    display: none;
+}
+
+
+#actividad .content .header .title h3 {
+    font-size: 2.6rem;
+}
 
 /*título 1*/
 
@@ -959,18 +1009,21 @@ body #book-index #indice .col-main {
 /*------------cajas----------------------------*/
 
 /*caja1*/
-
- .bck-box.box-1.center {
-
+.bck-box.box-1.center {
+    background-image: url(https://raw.githubusercontent.com/RaquelROES/PearsonBrImaginarium/master/images/bck_titles.png);
+    padding: 10px 20px;
+    background-size: contain;
 }
+
+
+.bck-box.box-1.center > .bck-title {
+    color: #95CDCB;
+    font-size: 20px;
+}
+
 
  .bck-box.box-1.center > .bck-content {
    
-   
-}
-
- .bck-box.box-1.center > .bck-title {
-  
 }
 
 
